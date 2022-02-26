@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  width: 2017px;
+  grid-area: header;
+  background-color:rgb(217, 215, 228) ;
+  text-align: center;  
+  height: 650px;
+  
+} 
+
+.home{
+grid-area: home;
+background-color:rgb(72, 150, 111);
+text-align: center;
+padding: 12px;  
+width: 2017px;
+height: 5500px;
+
+}
+
+form{
+	width: 500px;
+	margin: auto;	
+  color: rgb(7, 7, 7);
+}
+
+input, textarea{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255,255,255,.7);
+}
+input:hover, textarea:hover{
+background-color: #dddddd;
+
+}
+
+legend{	
+	
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif;
+}
+fieldset {
+	background-color: rgb(169, 169, 180);
+	margin: 20px;	
+}
+
+fieldset#sexo{
+	width: 430px;	  
+  
+}
+
+
+.chatbot {
+grid-area: chatbot;
+background-color: #e7e0e2;
+text-align: center;
+right: 0;
+width: 20%;
+padding: 10px;
+position: fixed;
+bottom: 60px;
+}
+
+
+.conteudo{
+  display: grid;
+  ;
+  grid-template-areas:  
+    'header header header  header'
+    'home   home   home    chatbot'
+    'footer footer footer  footer' 
+  ;
+  
+}
+
+.footer{
+  grid-area: footer;
+  text-align: center;
+  background-color:rgb(120, 120, 226);  
+  height: 60px;
+  width: 100%;
+  padding: 5px;  
+  position: fixed;
+  bottom: 0;
+  
+}
+
+
+
+
+
+
+
+

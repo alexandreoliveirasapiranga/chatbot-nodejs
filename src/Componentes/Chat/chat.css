@@ -1,0 +1,33 @@
+
+.chat-conteudo{
+display: grid;
+grid-template-rows: 40px auto 40px;
+height:calc(100vh - 400px);
+
+}
+
+.chat-header{
+    text-align: center;
+    background-color: rgb(153, 185, 40);
+    bottom: 0;
+    padding: 0px;
+    
+
+}
+ 
+
+.chat-convesa{
+    background-color: rgb(95, 183, 218);    
+    position: relative;
+    height: 280px;    
+    padding: 6px;
+
+}
+
+.chat-Menssagem{
+    background: rgb(122, 196, 11);  
+    bottom: 0px;    
+    position: relative;  
+    padding: 5px;
+    
+}
